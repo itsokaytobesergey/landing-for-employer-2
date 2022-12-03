@@ -1,0 +1,442 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ADesk</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <header class="header">
+      <a href="#" class="header__logo">
+        <img src="img/logo.svg" alt="logo" />
+      </a>
+      <nav class="nav">
+        <ul class="nav__list">
+          <li class="nav__item"><a href="#">Внедрить под ключ</a></li>
+          <li class="nav__item"><a href="#">Отзывы</a></li>
+          <li class="nav__item"><a href="#">Цены</a></li>
+          <li class="nav__item"><a href="#">Блог</a></li>
+          <li class="nav__item"><a href="#">Помощь</a></li>
+        </ul>
+        <div class="nav__controls">
+          <button class="button button__white">Войти</button>
+          <button class="button button__blue button__blue--header">Зарегистрироваться</button>
+          <button class="mobile__menu"></button>
+        </div>
+      </nav>
+    </header>
+    <main class="hero">
+      <div class="hero__articles">
+        <h1 class="hero__title">Платите только за то, что нужно вам</h1>
+        <p class="hero__text">
+          Тарифы для задач любого масштаба — стоимостью как карманные расходы у детей. Первые 14 дней —
+          <b>бесплатно</b> и без каких-либо ограничений.
+        </p>
+      </div>
+    </main>
+    <section class="plans">
+      <div class="plans__cards">
+        <div class="plans__card">
+          <div class="card__titles">
+            <h2 class="card__title">Тариф «Первый»</h2>
+            <p>Полный пакет опций для максимального результата</p>
+          </div>
+
+          <div class="card__price">
+            <span class="card__price--price">2 499₽</span>
+            <span class="small__text--grey">в месяц при оплате за год</span>
+          </div>
+
+          <div class="card__users">
+            <p>
+              <svg width="16" height="17" viewBox="0 0 16 17" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path
+                  d="M8 8.5C9.6575 8.5 11 7.1575 11 5.5C11 3.8425 9.6575 2.5 8 2.5C6.3425 2.5 5 3.8425 5 5.5C5 7.1575 6.3425 8.5 8 8.5ZM8 10C5.9975 10 2 11.005 2 13V14.5H14V13C14 11.005 10.0025 10 8 10Z"
+                  fill="#051534"
+                  fill-opacity="0.4"
+                />
+              </svg>
+              10+ пользователей
+            </p>
+            <p>
+              <svg width="16" height="17" viewBox="0 0 16 17" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path
+                  d="M2.66683 2.5C1.9315 2.5 1.3335 3.098 1.3335 3.83333V14.5H10.6668H14.6668V6.5C14.6668 5.77129 14.0622 5.16667 13.3335 5.16667H10.6668V3.83333C10.6668 3.098 10.0688 2.5 9.3335 2.5L2.66683 2.5ZM4.00016 5.16667H5.33349V6.5H4.00016V5.16667ZM6.66683 5.16667H8.00016V6.5H6.66683V5.16667ZM10.6668 6.5H13.3335V13.1667H10.6668V11.8333H12.0002V10.5H10.6668V9.16667H12.0002V7.83333H10.6668V6.5ZM4.00016 7.83333H5.33349V9.16667H4.00016V7.83333ZM6.66683 7.83333H8.00016V9.16667H6.66683V7.83333ZM4.00016 10.5H5.33349V11.8333H4.00016V10.5ZM6.66683 10.5H8.00016V11.8333H6.66683V10.5Z"
+                  fill="#051534"
+                  fill-opacity="0.4"
+                />
+              </svg>
+              5+ юридических лиц
+            </p>
+          </div>
+
+          <div class="card__benefits">
+            <p><img src="img/Vector (Stroke).svg" />Неограниченные счета</p>
+            <p><img src="img/Vector (Stroke).svg" />Учет по проектам</p>
+            <p><img src="img/Vector (Stroke).svg" />Отчет о движении денег</p>
+            <p><img src="img/Vector (Stroke).svg" />Отчет о прибылях и убытках</p>
+            <p><img src="img/Vector (Stroke).svg" />Настройка прав доступа</p>
+            <p><img src="img/Vector (Stroke).svg" />Бюджеты и план-факт анализ</p>
+            <p><img src="img/Vector (Stroke).svg" />Согласование платежей</p>
+            <p><img src="img/Vector (Stroke).svg" />Кредиты</p>
+            <p><img src="img/Vector (Stroke).svg" />Основные средства</p>
+            <p><img src="img/Vector (Stroke).svg" />Расширенная аналитика</p>
+            <p><img src="img/Vector (Stroke).svg" />Прикрепление файлов</p>
+            <p><img src="img/Vector (Stroke).svg" />Приоритетная поддержка</p>
+          </div>
+
+          <button class="button card__button card__button--pink">Протестировать</button>
+        </div>
+
+        <div class="plans__card">
+          <div class="card__titles">
+            <h2 class="card__title">Тариф «Бизнес»</h2>
+            <p>Инструмент для улучшения экономики бизнеса</p>
+          </div>
+
+          <div class="card__price">
+            <span class="card__price--price">2 082₽</span>
+            <span class="small__text--grey">в месяц при оплате за год</span>
+          </div>
+
+          <div class="card__users">
+            <p>
+              <svg width="16" height="17" viewBox="0 0 16 17" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path
+                  d="M8 8.5C9.6575 8.5 11 7.1575 11 5.5C11 3.8425 9.6575 2.5 8 2.5C6.3425 2.5 5 3.8425 5 5.5C5 7.1575 6.3425 8.5 8 8.5ZM8 10C5.9975 10 2 11.005 2 13V14.5H14V13C14 11.005 10.0025 10 8 10Z"
+                  fill="#051534"
+                  fill-opacity="0.4"
+                />
+              </svg>
+              3+ пользователя
+            </p>
+            <p>
+              <svg width="16" height="17" viewBox="0 0 16 17" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path
+                  d="M2.66683 2.5C1.9315 2.5 1.3335 3.098 1.3335 3.83333V14.5H10.6668H14.6668V6.5C14.6668 5.77129 14.0622 5.16667 13.3335 5.16667H10.6668V3.83333C10.6668 3.098 10.0688 2.5 9.3335 2.5L2.66683 2.5ZM4.00016 5.16667H5.33349V6.5H4.00016V5.16667ZM6.66683 5.16667H8.00016V6.5H6.66683V5.16667ZM10.6668 6.5H13.3335V13.1667H10.6668V11.8333H12.0002V10.5H10.6668V9.16667H12.0002V7.83333H10.6668V6.5ZM4.00016 7.83333H5.33349V9.16667H4.00016V7.83333ZM6.66683 7.83333H8.00016V9.16667H6.66683V7.83333ZM4.00016 10.5H5.33349V11.8333H4.00016V10.5ZM6.66683 10.5H8.00016V11.8333H6.66683V10.5Z"
+                  fill="#051534"
+                  fill-opacity="0.4"
+                />
+              </svg>
+              3+ юридических лица
+            </p>
+          </div>
+
+          <div class="card__benefits">
+            <p><img src="img/Vector (Stroke).svg" />Неограниченные счета</p>
+            <p><img src="img/Vector (Stroke).svg" />Учет по проектам</p>
+            <p><img src="img/Vector (Stroke).svg" />Отчет о движении денег</p>
+            <p><img src="img/Vector (Stroke).svg" />Отчет о прибылях и убытках</p>
+            <p><img src="img/Vector (Stroke).svg" />Настройка прав доступа</p>
+            <p><img src="img/Vector (Stroke).svg" />Бюджеты и план-факт анализ</p>
+            <p><img src="img/Vector (Stroke).svg" />Согласование платежей</p>
+            <p class="small__text--grey"><img src="img/Vector.svg" />Кредиты</p>
+            <p class="small__text--grey"><img src="img/Vector.svg" />Основные средства</p>
+            <p class="small__text--grey"><img src="img/Vector.svg" />Расширенная аналитика</p>
+            <p class="small__text--grey"><img src="img/Vector.svg" />Прикрепление файлов</p>
+            <p class="small__text--grey"><img src="img/Vector.svg" />Приоритетная поддержка</p>
+          </div>
+
+          <button class="button card__button card__button--green">Протестировать</button>
+        </div>
+
+        <div class="plans__card">
+          <div class="card__titles">
+            <h2 class="card__title">Тариф «Комфорт»</h2>
+            <p>Подходит для стартапов и микробизнеса</p>
+          </div>
+
+          <div class="card__price">
+            <span class="card__price--price">1 749₽</span>
+            <span class="small__text--grey">в месяц при оплате за год</span>
+          </div>
+
+          <div class="card__users">
+            <p>
+              <svg width="16" height="17" viewBox="0 0 16 17" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path
+                  d="M8 8.5C9.6575 8.5 11 7.1575 11 5.5C11 3.8425 9.6575 2.5 8 2.5C6.3425 2.5 5 3.8425 5 5.5C5 7.1575 6.3425 8.5 8 8.5ZM8 10C5.9975 10 2 11.005 2 13V14.5H14V13C14 11.005 10.0025 10 8 10Z"
+                  fill="#051534"
+                  fill-opacity="0.4"
+                />
+              </svg>
+              3 пользователя
+            </p>
+            <p>
+              <svg width="16" height="17" viewBox="0 0 16 17" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path
+                  d="M2.66683 2.5C1.9315 2.5 1.3335 3.098 1.3335 3.83333V14.5H10.6668H14.6668V6.5C14.6668 5.77129 14.0622 5.16667 13.3335 5.16667H10.6668V3.83333C10.6668 3.098 10.0688 2.5 9.3335 2.5L2.66683 2.5ZM4.00016 5.16667H5.33349V6.5H4.00016V5.16667ZM6.66683 5.16667H8.00016V6.5H6.66683V5.16667ZM10.6668 6.5H13.3335V13.1667H10.6668V11.8333H12.0002V10.5H10.6668V9.16667H12.0002V7.83333H10.6668V6.5ZM4.00016 7.83333H5.33349V9.16667H4.00016V7.83333ZM6.66683 7.83333H8.00016V9.16667H6.66683V7.83333ZM4.00016 10.5H5.33349V11.8333H4.00016V10.5ZM6.66683 10.5H8.00016V11.8333H6.66683V10.5Z"
+                  fill="#051534"
+                  fill-opacity="0.4"
+                />
+              </svg>
+              2 юридических лица
+            </p>
+          </div>
+
+          <div class="card__benefits">
+            <p><img src="img/Vector (Stroke).svg" />Неограниченные счета</p>
+            <p><img src="img/Vector (Stroke).svg" />Учет по проектам</p>
+            <p><img src="img/Vector (Stroke).svg" />Отчет о движении денег</p>
+            <p><img src="img/Vector (Stroke).svg" />Отчет о прибылях и убытках</p>
+            <p class="small__text--grey"><img src="img/Vector.svg" />Настройка прав доступа</p>
+            <p class="small__text--grey"><img src="img/Vector.svg" />Бюджеты и план-факт анализ</p>
+            <p class="small__text--grey"><img src="img/Vector.svg" />Согласование платежей</p>
+            <p class="small__text--grey"><img src="img/Vector.svg" />Кредиты</p>
+            <p class="small__text--grey"><img src="img/Vector.svg" />Основные средства</p>
+            <p class="small__text--grey"><img src="img/Vector.svg" />Расширенная аналитика</p>
+            <p class="small__text--grey"><img src="img/Vector.svg" />Прикрепление файлов</p>
+            <p class="small__text--grey"><img src="img/Vector.svg" />Приоритетная поддержка</p>
+          </div>
+
+          <button class="button card__button card__button--blue">Протестировать</button>
+        </div>
+
+        <div class="plans__card">
+          <div class="card__titles">
+            <h2 class="card__title">Тариф «Эконом»</h2>
+            <p>Подходит для фрилансеров и самозанятых</p>
+          </div>
+
+          <div class="card__price">
+            <span class="card__price--price">833₽</span>
+            <span class="small__text--grey">в месяц при оплате за год</span>
+          </div>
+
+          <div class="card__users">
+            <p>
+              <svg width="16" height="17" viewBox="0 0 16 17" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path
+                  d="M8 8.5C9.6575 8.5 11 7.1575 11 5.5C11 3.8425 9.6575 2.5 8 2.5C6.3425 2.5 5 3.8425 5 5.5C5 7.1575 6.3425 8.5 8 8.5ZM8 10C5.9975 10 2 11.005 2 13V14.5H14V13C14 11.005 10.0025 10 8 10Z"
+                  fill="#051534"
+                  fill-opacity="0.4"
+                />
+              </svg>
+              1 пользователь
+            </p>
+            <p>
+              <svg width="16" height="17" viewBox="0 0 16 17" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path
+                  d="M2.66683 2.5C1.9315 2.5 1.3335 3.098 1.3335 3.83333V14.5H10.6668H14.6668V6.5C14.6668 5.77129 14.0622 5.16667 13.3335 5.16667H10.6668V3.83333C10.6668 3.098 10.0688 2.5 9.3335 2.5L2.66683 2.5ZM4.00016 5.16667H5.33349V6.5H4.00016V5.16667ZM6.66683 5.16667H8.00016V6.5H6.66683V5.16667ZM10.6668 6.5H13.3335V13.1667H10.6668V11.8333H12.0002V10.5H10.6668V9.16667H12.0002V7.83333H10.6668V6.5ZM4.00016 7.83333H5.33349V9.16667H4.00016V7.83333ZM6.66683 7.83333H8.00016V9.16667H6.66683V7.83333ZM4.00016 10.5H5.33349V11.8333H4.00016V10.5ZM6.66683 10.5H8.00016V11.8333H6.66683V10.5Z"
+                  fill="#051534"
+                  fill-opacity="0.4"
+                />
+              </svg>
+              1 юридическое лицо
+            </p>
+          </div>
+
+          <div class="card__benefits">
+            <p><img src="img/Vector (Stroke).svg" />Неограниченные счета</p>
+            <p><img src="img/Vector (Stroke).svg" />Учет по проектам</p>
+            <p><img src="img/Vector (Stroke).svg" />Отчет о движении денег</p>
+            <p class="small__text--grey"><img src="img/Vector.svg" />Отчет о прибылях и убытках</p>
+            <p class="small__text--grey"><img src="img/Vector.svg" />Настройка прав доступа</p>
+            <p class="small__text--grey"><img src="img/Vector.svg" />Бюджеты и план-факт анализ</p>
+            <p class="small__text--grey"><img src="img/Vector.svg" />Согласование платежей</p>
+            <p class="small__text--grey"><img src="img/Vector.svg" />Кредиты</p>
+            <p class="small__text--grey"><img src="img/Vector.svg" />Основные средства</p>
+            <p class="small__text--grey"><img src="img/Vector.svg" />Расширенная аналитика</p>
+            <p class="small__text--grey"><img src="img/Vector.svg" />Прикрепление файлов</p>
+            <p class="small__text--grey"><img src="img/Vector.svg" />Приоритетная поддержка</p>
+          </div>
+
+          <button class="button card__button button__white">Протестировать</button>
+        </div>
+      </div>
+    </section>
+    <section class="start">
+      <div class="start__img">
+        <img src="img/hmm.png" alt="hmm_man" />
+      </div>
+      <div class="start__block">
+        <h2>Не можете определиться с тарифом?</h2>
+        <p>
+          Давайте мы проведем бесплатную демонстрацию Adesk, на которой расскажем, как устроен сервис, покажем весь
+          функционал и поможем выбрать тариф, который наиболее подходит для вашего бизнеса.
+        </p>
+        <button class="button start__button button__white">Записаться на демо</button>
+      </div>
+    </section>
+
+    <section class="cons">
+      <div class="consulting">
+        <div class="consulting__title-block">
+          <h2 class="consulting__title">Внедрим управленческий учёт в вашей компании</h2>
+        </div>
+        <div class="consulting__list-block">
+          <ul class="consulting__list">
+            <li class="consulting__item">
+              <img class="consulting__item-number" src="img/1.png" alt="1" />
+              <p class="consulting__item-text">Вы получите полностью работоспособную систему управленческого учета</p>
+            </li>
+            <li class="consulting__item">
+              <img class="consulting__item-number" src="img/2.png" alt="2" />
+              <p class="consulting__item-text">Вам не придется тратить время на самостоятельное изучение тонкостей</p>
+            </li>
+            <li class="consulting__item">
+              <img class="consulting__item-number" src="img/3.png" alt="3" />
+              <p class="consulting__item-text">Мы будем сопровождать вас в течение первых месяцев работы</p>
+            </li>
+          </ul>
+        </div>
+        <button class="button consulting__button">Получить консультацию</button>
+      </div>
+    </section>
+
+    <section class="faq">
+      <h2 class="faq__title">Вопросы и ответы</h2>
+
+      <div class="faq__block">
+        <div class="faq__question">Зачем нужен Adesk, если есть Excel?</div>
+        <div class="faq__answer is-hidden">
+          <ul class="faq__list">
+            <li class="faq__item">
+              Эксель — замечательный инструмент, но отнимает очень много времени и увеличивает шанс допустить ошибку
+            </li>
+            <li class="faq__item">Особенно когда в нём работают несколько пользователей</li>
+            <li class="faq__item">
+              Но самая главная проблема Экселя — это то, что в нем нет возможностей для автоматизации. Многие рутинные
+              операции приходится делать вручную, что является очень дорогим удовольствием для предпринимателей.
+            </li>
+          </ul>
+          <img src="img/photo-answer.png" alt="agent007" />
+        </div>
+
+        <div class="faq__question">А если у нас есть бухгалтер?</div>
+        <div class="faq__answer is-hidden">
+          <ul class="faq__list">
+            <li class="faq__item">О, бухгалтерский и управленческий учёт — совершенно разные вещи!</li>
+            <li class="faq__item">Основная задача бухгалтера — правильно и вовремя отчитываться перед государством</li>
+            <li class="faq__item">
+              Управленческий учёт нужен в первую очередь для предпринимателя или собственника бизнеса для того, чтобы в
+              реальном времени иметь ответ на вопрос «Как идут дела у компании?» и принимать правильные управленческие
+              решения.
+            </li>
+            <li class="faq__item">Или у вас в бизнесе управленческие решения принимает бухгалтер? 🙂</li>
+          </ul>
+          <img src="img/photo-answer.png" alt="agent007" />
+        </div>
+
+        <div class="faq__question">А нашей компании подойдёт Adesk?</div>
+        <div class="faq__answer is-hidden">
+          <ul class="faq__list">
+            <li class="faq__item">
+              Наши клиенты — это малый бизнес из самых разных отраслей экономики с доходом от 500 тысяч до 15-20 млн
+              рублей в месяц. Как правило, у них несколько счетов и ООО/ИП. Примерно половина клиентов — проектные
+              компании, которые работают над заказами своих клиентов.
+            </li>
+          </ul>
+          <img src="img/photo-answer.png" alt="agent007" />
+        </div>
+
+        <div class="faq__question">Могу ли я приглашать других пользователей в систему?</div>
+        <div class="faq__answer is-hidden">
+          <ul class="faq__list">
+            <li class="faq__item">
+              Конечно! Более того, разным сотрудникам вы можете раздать разные права доступа. Например, кто-то из
+              сотрудников может иметь доступ на внесение данных только по определенному счету и при этом не иметь
+              доступа ни к каким отчетам.
+            </li>
+          </ul>
+          <img src="img/photo-answer.png" alt="agent007" />
+        </div>
+
+        <div class="faq__question">Мне нужна помощь в освоении сервиса. Как быть?</div>
+        <div class="faq__answer is-hidden">
+          <ul class="faq__list">
+            <li class="faq__item">
+              У нас есть YouTube-канал, а так же сайт help.adesk.ru с простыми и понятными статьями, где вы, возможно,
+              сможете найти ответы на свои вопросы.
+            </li>
+            <li class="faq__item">
+              Не стесняйтесь писать нам в чат, мы очень активно отвечаем и с удовольствием вам поможем.
+            </li>
+            <li class="faq__item">
+              Чтобы сэкономить ваше время, мы можем выделить вам помощника, который за несколько онлайн-созвонов обучит
+              вас работе в сервисе. Услуга предоставляется за дополнительную плату.
+            </li>
+          </ul>
+          <img src="img/photo-answer.png" alt="agent007" />
+        </div>
+        <div class="faq__answer">
+          <ul class="faq__list">
+            <li class="faq__item">Есть другой вопрос? Напишите нам в чат в правом нижнем углу экрана.</li>
+          </ul>
+          <img src="img/photo-answer.png" alt="agent007" />
+        </div>
+      </div>
+    </section>
+
+    <footer>
+      <div class="footer">
+        <div class="footer__logo">
+          <img src="img/footer__logo.svg" alt="logo" />
+          <h2>Рассчитывайте на <b>Adesk.</b></h2>
+        </div>
+
+        <div class="footer__block">
+          <h3 class="footer__heading">Adesk для бизнеса</h3>
+          <a href="" class="footer__link">Digital-агентства</a>
+          <a href="" class="footer__link">Маркетинговые агентства</a>
+          <a href="" class="footer__link">Стартапы</a>
+          <a href="" class="footer__link">Кафе и рестораны</a>
+          <a href="" class="footer__link">Строительные компании</a>
+          <a href="" class="footer__link">Юридические фирмы</a>
+          <a href="" class="footer__link">Фрилансеры</a>
+        </div>
+
+        <div class="footer__block">
+          <h3 class="footer__heading">Ресурсы</h3>
+          <a href="" class="footer__link">Журнал о финансах</a>
+          <a href="" class="footer__link"
+            >Курс по учету <img class="pencil__pic" src="img/pencil.png" alt="pencil"
+          /></a>
+          <a href="" class="footer__link">Внедрение под ключ</a>
+          <a href="" class="footer__link">Партнерская программа</a>
+          <a href="" class="footer__link">Бонусы от партнеров</a>
+        </div>
+
+        <div class="footer__block">
+          <h3 class="footer__heading">Информация</h3>
+          <a href="" class="footer__link">Документация по API</a>
+          <a href="" class="footer__link">Отзывы пользователей</a>
+          <a href="" class="footer__link">Помощь</a>
+          <div class="footer__contacts">
+            <a href="#">support@adesk.ru</a>
+            <a href="tel:+79451062100">+7 (495) 106-21-00</a>
+          </div>
+        </div>
+
+        <div class="footer__block--desktop">
+          <div class="footer__pay-methods">
+            <img src="img/visa.svg" alt="" />
+            <img src="img/mastercard.svg" alt="" />
+            <img src="img/tinkoff.svg" alt="" />
+          </div>
+          <div class="footer__apps">
+            <a href="#"><img src="img/appstore.svg" alt="" /></a>
+            <a href="#"><img src="img/google play.svg" alt="" /></a>
+          </div>
+        </div>
+
+        <div class="footer__info">
+          <a href="" class="footer__info-item">ООО «Адеск», 2022</a>
+          <span class="footer__info-data">ИНН 7751182678</span>
+          <a href="" class="footer__info-item">Политика конфиденциальности</a>
+          <a href="" class="footer__info-item">Договор-оферта</a>
+        </div>
+        <div class="footer__social">
+          <a href="" class="footer__social-item"><img src="img/telegram.svg" alt="telegram" /></a>
+          <a href="" class="footer__social-item"><img src="img/facebook.svg" alt="facebook" /></a>
+          <a href="" class="footer__social-item"><img src="img/vk.svg" alt="vkontakte" /></a>
+          <a href="" class="footer__social-item"><img src="img/youtube.svg" alt="youtube" /></a>
+          <a href="" class="footer__social-item"><img src="img/instagram.svg" alt="instagram" /></a>
+        </div>
+      </div>
+    </footer>
+    <script src="./main.js" defer></script>
+  </body>
+</html>
